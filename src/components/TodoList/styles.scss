@@ -1,0 +1,68 @@
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+
+    &:last-child {
+        border: none
+    }
+
+    .list-item-inner{
+        flex:1;
+
+        input { 
+            border: none;
+            background: transparent;
+            font-size: 16px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .saveBtn {
+        border: 1px solid #2fb305;
+        background: #2fb305;
+        color: #fff;
+        height: 30px;
+        padding: 0 12px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .editBtn {
+        border: 1px solid #ddd;
+        background: #eee;
+        height: 30px;
+        padding: 0 12px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .deleteBtn{
+        border: 1px solid #c00;
+        background: #c00;
+        color: #fff;
+        height: 30px;
+        padding: 0 12px;
+        border-radius: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

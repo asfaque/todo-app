@@ -1,0 +1,38 @@
+.todo {
+    max-width: 600px;
+    margin: 30px auto;
+
+    .form-inner {
+        border: 1px solid #eee;
+        padding: 20px;
+        background: #f1f1f1;
+        border-radius: 8px;
+    }
+
+    .todo-inner {
+        margin-top: 30px;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        padding: 5px 15px;
+
+        .noitem {
+            margin: 0;
+            font-style: italic;
+            padding: 10px 0;
+        }
+    }
+
+    .clear-btn {
+        display: block;
+        width: 100%;
+        margin: 30px auto 0;
+        height: 38px;
+        border-radius: 8px;
+        border: none;
+        background: #ec2e2e;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
